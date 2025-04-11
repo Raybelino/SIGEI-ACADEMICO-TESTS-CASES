@@ -8,7 +8,7 @@ class base_page:
 
     # Metodo para la inicializacion de la pagina con el driver de Microsoft Edge y la url del SIGEI ACADEMICO
     def init_page():
-        service = Service("C:/Users/Jorge Rayber Acosta/Desktop/Pruebas automaticas/driver/msedgedriver.exe")
+        service = Service("../driver/msedgedriver.exe")
         driver = webdriver.Edge(service=service)
         driver.maximize_window()
         driver.get("https://sigeiacademico.itla.edu.do/")
