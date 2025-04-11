@@ -1,0 +1,12 @@
+# Necesario para la correcta ejecucion de los tests
+
+# Librerias
+pytest == 8.3.5
+pytest-html == 4.1.1
+selenium == 4.31.0
+
+# Navegador
+msedge == 135.0.3179.66
+
+# Driver del navegador
+msedgedriver == 135.0.3179.66
